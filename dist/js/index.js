@@ -1,0 +1,1 @@
+require(["config"],function(){require(["load","list"],function(){require(["jquery"],function(i){var n=i("#login");i("#loginTelNumber"),i("#loginPass"),i("#forgetPass");n.on("click",function(i){location.href="/dist/html/my.html"})})})});

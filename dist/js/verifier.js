@@ -1,0 +1,1 @@
+require(["config"],function(){require(["load","list"],function(){require(["jquery"],function(i){var n=i("#comfiredia"),o=i(".comfireOK"),c=i("#cancleConfirm"),r=(i("#Confirms"),i("#lefts"));function e(){n.addClass("show")}for(var f=0;f<=o.length;f++)i(o[f]).on("click",e);c.on("click",function(){n.removeClass("show")}),r.on("click",function(){window.history.back(-1)})})})});

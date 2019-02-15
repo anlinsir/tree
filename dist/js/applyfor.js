@@ -1,0 +1,1 @@
+require(["config"],function(){require(["load","list"],function(){require(["jquery"],function(i){var n,o=i("#hiddenTips"),c=i("#applyTo"),e=i("#closeTips");i("#lefts").on("click",function(){window.history.back(-1)}),c.on("click",function(){o.show(),n=setTimeout(function(){o.hide(),clearTimeout(n)},2e3)}),e.on("click",function(){o.hide()})})})});
